@@ -3,14 +3,7 @@ plugins {
 }
 
 android {
-    signingConfigs {
-        create("release") {
-            storeFile = file("C:\\WorkingSpace\\AndroidProject\\kylin.jks")
-            storePassword = "qwer1234"
-            keyAlias = "key0"
-            keyPassword = "qwer1234"
-        }
-    }
+
     namespace = "com.example.xunfeitest"
     compileSdk = 34
 
@@ -24,16 +17,6 @@ android {
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
 
-    buildTypes {
-        release {
-            isMinifyEnabled = false
-            proguardFiles(
-                getDefaultProguardFile("proguard-android-optimize.txt"),
-                "proguard-rules.pro"
-            )
-            signingConfig = signingConfigs.getByName("release")
-        }
-    }
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_1_8
         targetCompatibility = JavaVersion.VERSION_1_8

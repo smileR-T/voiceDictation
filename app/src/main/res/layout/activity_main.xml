@@ -62,19 +62,19 @@ android:paddingRight="10dp">
         android:textSize="20sp" />
 </LinearLayout>
 
-    <Button
-        android:id="@+id/dialogButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="显示讯飞弹框"
-        android:textSize="20sp" />
+<!--    <Button-->
+<!--        android:id="@+id/dialogButton"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="显示讯飞弹框"-->
+<!--        android:textSize="20sp" />-->
 
-    <Button
-        android:id="@+id/languageText"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="点击切换语种：中文"
-        android:textSize="20sp" />
+<!--    <Button-->
+<!--        android:id="@+id/languageText"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="点击切换语种：中文"-->
+<!--        android:textSize="20sp" />-->
 
 <Button
     android:id="@+id/iat_recognize_stream"
